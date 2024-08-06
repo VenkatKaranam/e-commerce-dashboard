@@ -37,7 +37,7 @@ const FeedbackContainer = () => {
 
                         <div className='rating-container'>
                             {[...Array(5)].map((e, key) =>(
-                                <StarIcon key={key} className={`star ${key < feedback.rating ? 'gold' : ''}`} />
+                                <StarIcon key={key} id={e} className={`star ${key < feedback.rating ? 'gold' : ''}`} />
                             ))}
                         </div>
                         

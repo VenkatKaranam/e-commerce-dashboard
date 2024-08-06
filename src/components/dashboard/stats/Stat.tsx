@@ -1,6 +1,5 @@
 import { Statistic } from '@/shared/type'
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid'
-import React from 'react'
 
 type props ={
     stat: Statistic

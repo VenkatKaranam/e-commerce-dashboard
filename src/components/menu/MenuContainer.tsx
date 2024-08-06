@@ -1,5 +1,4 @@
-import React from 'react'
-import { HomeIcon, ChartBarIcon, ClipboardDocumentCheckIcon, WalletIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
+import { ChartBarIcon, ClipboardDocumentCheckIcon, WalletIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
 import { HomeIcon as HomeIconSolid } from '@heroicons/react/24/solid'
 
 function MenuContainer() {

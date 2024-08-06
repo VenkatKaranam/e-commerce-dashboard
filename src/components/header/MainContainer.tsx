@@ -1,6 +1,6 @@
 import logo from '@/assets/logo.png'
-import SearchBar from '@/components/header/SearchBar'
-import Profile from '@/components/header/Profile'
+import SearchBar from './SearchBar'
+import Profile from './Profile'
 
 function MainContainer() {
   return (

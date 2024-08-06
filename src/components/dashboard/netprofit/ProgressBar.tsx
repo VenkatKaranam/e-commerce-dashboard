@@ -51,11 +51,11 @@ const ProgressBar = ({value}: props ) => {
             />
         </svg>
         <span className="center-label">
-                <d className="progress-value">
+                <div className="progress-value">
                     {`${
                         progress > 100 ? 100 : progress
                     }%`}
-                </d>
+                </div>
 
                 <span>
                     Goal

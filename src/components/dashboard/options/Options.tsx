@@ -1,4 +1,4 @@
-import { option } from '@/shared/type'
+import { Option } from '@/shared/type'
 import goal from '@/assets/options/goal.png'
 import dish from '@/assets/options/dish.png'
 import menu from '@/assets/options/menu.png'
@@ -6,7 +6,7 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid'
 
 const Options = () => {
     
-    const options: Array<option> = [
+    const options: Array<Option> = [
         {
             iconUrl: goal,
             name: 'Goal'

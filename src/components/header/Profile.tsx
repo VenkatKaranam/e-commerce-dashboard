@@ -1,4 +1,3 @@
-import React from 'react'
 import { EnvelopeIcon, Cog6ToothIcon, BellIcon} from '@heroicons/react/24/outline'
 import profile from '@/assets/people/profile.png'
 
