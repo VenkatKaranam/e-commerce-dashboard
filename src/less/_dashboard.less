@@ -1,0 +1,47 @@
+@import './dashboard/_stats.less';
+@import './dashboard/_netProfit.less';
+@import './dashboard/_progressBar.less';
+@import './dashboard/_activity.less';
+@import './dashboard/_options.less';
+@import './dashboard/_orders.less';
+@import './dashboard/_feedback.less';
+
+#dashboard{
+    width: 90%;
+    position: relative;
+    left: 92px;
+    top: 80px;
+    padding: 24px;
+
+    @media @max575{
+        padding: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+
+    .compontents{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .row{
+            display: flex;
+            gap: 24px;
+
+            @media @max991 {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .tab-heading{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        color: #E9E9EA;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+}

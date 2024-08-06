@@ -1,0 +1,129 @@
+#activity{
+    min-width: 660px;
+    background: #1F1F28;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    @media @max1255 {
+        min-width: 540px;
+    }
+
+    @media @max991 {
+        min-width: inherit;
+    }
+
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .heading{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            color: #E6E6E7;
+        }
+
+        .recurrence{
+            background: #4C4D52;
+            border: 1px solid #626164;
+            border-radius: 10.75px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            font-size: 8px;
+            line-height: 9px;
+            color: #C4C4C8;
+            padding: 8px 10px;
+            
+            .chevron-down{
+                width: 7px;
+                height: 7px;
+            }
+        }
+    }
+
+
+    .graph-container{
+        margin-top: 20px;
+        position: relative;
+        overflow-x: scroll;     
+
+    &::-webkit-scrollbar {
+        width: 1px;
+      }
+
+      &::-webkit-scrollbar-track {
+        box-shadow: none;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: transparent;
+      }
+
+        .x-axis-container{
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            
+
+            .x-axis-line{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+
+                .value{
+                    font-weight: 600;
+                    font-size: 8px;
+                    line-height: 10px;
+                    color: #7D7E81;
+                }
+
+                .line{
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #4d4d4e;
+
+                }
+            }
+        }
+
+        .y-axis-container{
+            margin-top: 6px;
+            margin-left: 22px;
+            display: flex;
+            gap: 45px;
+            .value{
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 12px;
+                color: #7F7F84;
+            }
+        }
+
+        .bars-container{
+            position: absolute;
+            top: 0;
+            display: flex;
+            gap: 12px;
+            height: 130px;
+            align-items: flex-end;
+            margin-left: 22px;
+
+            .bar{
+                display: block;
+                width: 22px;
+                height: 0%;
+                border-radius: 25px;
+                background-color: #7294FF;
+            }
+        }
+    }
+}
