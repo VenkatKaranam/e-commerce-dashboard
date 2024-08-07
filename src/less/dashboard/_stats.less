@@ -16,7 +16,13 @@
         width: 100%;
         flex-grow: 1;
 
-       
+        @media @max575{
+            width: 100px;
+        }
+
+        @media @max360{
+            width: 80px;
+        }
 
         .icon{
             width: 35px;
@@ -25,9 +31,10 @@
         .name{
             margin-top: 7px;
             font-weight: 600;
-            font-size: 9.5px;
+            font-size: 10px;
             line-height: 11px;
             color: #BCBCC0;
+
         }
 
         .value-container{
@@ -38,9 +45,14 @@
             
             .value{
                 font-weight: 600;
-                font-size: 25px;
+                font-size: 24px;
                 line-height: 30px;
                 color: #EDEDEE;
+
+                @media @max991{
+                    font-size: 20px;
+                    line-height: 24px;
+                }
             }
 
             .percent{
@@ -74,8 +86,6 @@
                         color: #079E73;
                     }
                 }
-
-                
             }
 
         }

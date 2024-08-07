@@ -2,10 +2,10 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 const ActivityContainer = () => {
   const xAxisValues: Array<number> = [15, 10, 5, 0];
   const yAxisValues: Array<number> = [
-    5, 9, 11, 13, 15, 17, 15, 17, 15, 17, 15, 17,
+    5, 9, 11, 13, 15, 17, 15, 19, 21, 23, 25, 27, 29,31,33,35,37,39
   ];
   const barValues: Array<number> = [
-    5, 9, 11, 13, 15, 6, 8, 3, 9, 7, 6, 2, 4, 5, 11, 13, 15, 6, 8,
+    5, 9, 11, 13, 15, 6, 8, 3, 9, 7, 6, 2, 4, 5, 11, 13, 15, 6, 8, 11, 13, 15, 6, 8, 3, 9, 7, 6
   ];
   const maxGraphValue: number = 15;
 
