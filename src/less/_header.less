@@ -5,11 +5,16 @@
     align-items: center;
     position: fixed;
     width: 100%;
-    z-index: 1049;
+    z-index: 1050;
 
     .logo{
         width: 32px;
         height: 32px;
+
+        @media @max991{
+            width: 24px;
+            height: 24px;
+        }
     }
 
     .search-input{
@@ -25,6 +30,14 @@
             line-height: 13px;
             color: #ADAEB1;
             outline: none;
+
+            @media @max991 {
+                width: 150px;               
+            }
+
+            @media @max575{
+                display: none;
+            }
         }
     }
 
@@ -33,6 +46,11 @@
         gap: 16px;
         margin-left: auto;
         margin-right: 48px;
+
+        @media @max991 {
+            gap: 12px             
+        }
+        
         .icon{
             background-color: #45464B;
             color: ACABA9;
@@ -40,11 +58,20 @@
             height: 24px;
             padding: 8px;
             border-radius: 50%;
+
+            @media @max991 {
+                width: 16px; 
+                height: 16px;              
+            }
         }
 
         .profile-image{
             width: 40px;
-            height: 40px;
+
+            @media @max991 {
+                width: 32px; 
+                height: 32px;              
+            }
         }
     }
 }
