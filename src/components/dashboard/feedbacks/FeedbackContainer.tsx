@@ -1,5 +1,7 @@
 import { Feedback } from '@/shared/type'
 import wade from '@/assets/people/wade.png'
+import jane from '@/assets/people/jane.png'
+import daniel from '@/assets/people/daniel.png'
 import { StarIcon } from '@heroicons/react/24/solid'
 
 const FeedbackContainer = () => {
@@ -12,13 +14,13 @@ const FeedbackContainer = () => {
             feedback: 'The food was excellent and so was the service. I had the mushroom risotto with scalops which was awesome.lhadaburger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies.'
         },
         {
-            profileUrl: wade,
-            name: 'Jenny Wilson',
+            profileUrl: daniel,
+            name: 'Dianne Russell',
             rating: 4,
             feedback: 'The food was excellent and so was the service. I had the mushroom risotto with scalops which was awesome.lhadaburger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies.'
         },
         {
-            profileUrl: wade,
+            profileUrl: jane,
             name: 'Jenny Wilson',
             rating: 4,
             feedback: 'The food was excellent and so was the service. I had the mushroom risotto with scalops which was awesome.lhadaburger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies.'

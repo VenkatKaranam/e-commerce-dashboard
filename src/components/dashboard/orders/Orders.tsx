@@ -1,5 +1,8 @@
 import { Order } from '@/shared/type'
 import wade from '@/assets/people/wade.png'
+import jane from '@/assets/people/jane.png'
+import guy from '@/assets/people/guy.png'
+import kristin from '@/assets/people/kristin.png'
 
 const Orders = () => {
     const orders: Array<Order> = [
@@ -11,22 +14,22 @@ const Orders = () => {
             status: 'Delivered'
         },
         {
-            profileUrl : wade,
-            name: 'Wade Warren',
+            profileUrl : jane,
+            name: 'Jane Cooper',
             orderNo: 15478256,
-            amount: 124.00,
+            amount: 365.02,
             status: 'Delivered'
         },
         {
-            profileUrl : wade,
-            name: 'Wade Warren',
+            profileUrl : guy,
+            name: 'Guy Hawkins',
             orderNo: 15478256,
             amount: 124.00,
             status: 'Cancelled'
         },
         {
-            profileUrl : wade,
-            name: 'Wade Warren',
+            profileUrl : kristin,
+            name: 'Kristin Watson',
             orderNo: 15478256,
             amount: 124.00,
             status: 'Delivered'
@@ -39,12 +42,12 @@ const Orders = () => {
             status: 'Pending'
         },
         {
-            profileUrl : wade,
-            name: 'Wade Warren',
+            profileUrl : jane,
+            name: 'Jane Cooper',
             orderNo: 15478256,
-            amount: 124.00,
+            amount: 365.02,
             status: 'Delivered'
-        }
+        },
     ]
 
 
