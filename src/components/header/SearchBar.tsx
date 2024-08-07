@@ -1,4 +1,4 @@
-function SearchBar() {
+const SearchBar = () => {
   return (
     <div className='search-input'>
         <form>

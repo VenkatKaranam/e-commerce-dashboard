@@ -6,6 +6,10 @@
     flex-direction: column;
     flex-grow: 1;
 
+    @media @max991 {
+        overflow-y: scroll;
+    }
+
     th{
         text-align: left;
         padding: 12px 0;
@@ -28,6 +32,10 @@
         color: #DCDCDF;
         border-collapse: collapse;
         margin-top: 24px;
+
+        @media @max575 {
+            width: 420px;
+        }
         
         tbody{
             color: #BABBBF;

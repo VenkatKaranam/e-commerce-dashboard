@@ -5,7 +5,7 @@ import Options from './options/Options'
 import Orders from './orders/Orders'
 import FeedbackContainer from './feedbacks/FeedbackContainer'
 
-function MainContainer() {
+const MainContainer = () => {
   return (
     <div id='dashboard' className='dashboard'>
         <h2 className='tab-heading'>

@@ -6,7 +6,7 @@ import revenue from "@/assets/stats/revenue.png"
 import Stat from "./Stat"
 
 
-function StatsContainer() {
+const StatsContainer = () => {
 
     const stats : Array<Statistic>=[
         {

@@ -1,7 +1,7 @@
 import { EnvelopeIcon, Cog6ToothIcon, BellIcon} from '@heroicons/react/24/outline'
 import profile from '@/assets/people/profile.png'
 
-function Profile() {
+const Profile = () => {
   return (
     <div className='profile'>
         <EnvelopeIcon className='icon' />

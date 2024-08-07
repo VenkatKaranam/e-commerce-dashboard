@@ -1,7 +1,7 @@
 import { ChartBarIcon, ClipboardDocumentCheckIcon, WalletIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
 import { HomeIcon as HomeIconSolid } from '@heroicons/react/24/solid'
 
-function MenuContainer() {
+const MenuContainer = () => {
   return (
     <div id='menu' className='menu-bar'>
         <div className='tabs-container'>
